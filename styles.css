@@ -1,0 +1,136 @@
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+    background-color: black;
+}
+
+.title {
+    font-size: 50px;
+    background-color: black;
+    font-weight: 800;
+    padding: 0 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.firstImage {
+    height: 350px;
+    margin: 10px;
+}
+
+.start-button {
+    height: 40px;
+}
+
+/* Check out `display:none`. What do you think it does?*/
+.treasure {
+    display: none;
+    font-family: 'Coiny', cursive;
+}
+
+.treasure-img {
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.inside {
+    height: 300px;
+}
+
+.room {
+    height: 400px;
+    width: 900px;
+}
+.curtain {
+  background-image:url(".guard");
+  height:350px;
+  position: absolute;
+  width:350px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  right: 340px;
+}
+
+.guard{
+  background-image:url(".curtain");
+  height:350px;     
+  width:200px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.button3 {
+    margin-left: auto;
+    margin-right: auto;
+    right: 40%;
+    height: 50px;
+    bottom: 20%;
+    position: absolute;
+}
+.button4 {
+    margin-left: auto;
+    margin-right: auto;
+    right: 50%;
+    height: 50px;
+    bottom: 20%;
+    position: absolute;
+}
+.button5 {
+    margin-left: auto;
+    margin-right: auto;
+    right: 30%;
+    height: 50px;
+    bottom: 20%;
+    position: absolute;
+}
+.winhint {
+    color: red;
+	bottom: 25%;
+    Position: absolute;
+}
+.ucaught {
+    color: red;
+	bottom: 20%;
+    Position: absolute;
+    right: 35%;
+    font-weight: 700;
+}
+.uwin {
+    color: white;
+	bottom: 20%;
+    Position: absolute;
+    right: 32%;
+    font-weight: 700;
+}
+.caught {
+    height: 350px;
+    width: 400px;
+}
+.R {
+    margin-left: auto;
+    margin-right: auto;
+    right: 50%;
+    height: 50px;
+    bottom: 10%;
+    position: absolute;
+}
+.free {
+    height: 300px;
+}
